@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_img"
+    android:orientation="vertical"
+>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        app:popupTheme="@style/AppBaseTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#313b89"
+        android:foregroundTint="#FFFFFF"
+        app:title="Profile"
+        app:titleTextColor="@color/white" >
+
+        <!-- Add an empty space to push the image button to the right -->
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <!-- Add your image button here -->
+        <ImageButton
+            android:id="@+id/logout_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:background="@color/actionBar"
+            android:src="@drawable/logout" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/app_name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Dreamer"
+        android:textColor="@android:color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_image"
+        android:src="@drawable/friend_face"
+
+    />
+
+
+    <ImageButton
+        android:id="@+id/profile_btn"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/camera1" />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_edit_text"
+        android:text="User Name"
+        android:textColor="#1E2E45"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

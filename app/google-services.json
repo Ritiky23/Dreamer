@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "111124401150",
+    "project_id": "dream-bb1f4",
+    "storage_bucket": "dream-bb1f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:111124401150:android:f855a3179f988726d08eaf",
+        "android_client_info": {
+          "package_name": "com.example.dreamer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzHgz95el0nDHV_KXwAEESfE9T6Mz-O5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

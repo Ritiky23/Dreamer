@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_img"
+    tools:context=".ui.DreamResponseActivity">
+
+    <!-- Dream Content -->
+
+    <!-- Emotion -->
+
+    <!-- Response -->
+
+    <TextView
+        android:id="@+id/contenthead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Dream :"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/responsehead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Response :"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/content1"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="96dp"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Dream Content"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/contenthead"
+
+        app:layout_constraintTop_toTopOf="@+id/contenthead"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/response_text_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="115dp"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:shadowColor="@android:color/black"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Response"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/responsehead"
+        app:layout_constraintTop_toTopOf="@+id/responsehead"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

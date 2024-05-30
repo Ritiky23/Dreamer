@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/navigation_dream"
+        android:icon="@drawable/dream1"
+        android:title="Dream"
+        android:iconTint="#B145DF"/>
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/history"
+        android:title="History" />
+</menu>

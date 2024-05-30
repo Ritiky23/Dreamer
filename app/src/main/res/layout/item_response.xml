@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:backgroundTint="#FFFFFF"
+
+    android:foregroundTint="#504D4D"
+    app:cardBackgroundColor="#BFB3B3"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/keyword_image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dream_2988073" />
+
+        <TextView
+            android:id="@+id/dream_content_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toStartOf="@+id/timestamp_text_view"
+            android:layout_toEndOf="@id/keyword_image_view"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emotion_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/dream_content_text_view"
+
+            android:layout_marginEnd="8dp"
+            android:maxLines="2"
+            android:layout_toEndOf="@id/keyword_image_view"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/timestamp_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

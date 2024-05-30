@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_img"
+    tools:context=".MainActivity">
+
+    <!-- Logo or App Name -->
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Dreamer"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <!-- Container for Spinner and EditText -->
+    <LinearLayout
+        android:background="@drawable/round_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal">
+
+        <!-- Country Code Selector -->
+
+        <!-- Phone Number Input -->
+
+        <Spinner
+            android:id="@+id/country_code_spinner"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/country_codes"
+            android:foregroundTint="@color/white"
+            android:layout_marginLeft="15dp"
+    />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_edit_text"
+            android:hint="Enter phone number"
+            android:inputType="phone"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <!-- Send OTP Button -->
+    <Button
+        android:id="@+id/send_otp_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/rounded_button"
+        android:padding="16dp"
+        android:text="Send OTP"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

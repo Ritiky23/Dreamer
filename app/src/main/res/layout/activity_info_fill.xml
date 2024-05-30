@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_img">
+
+    <!-- Logo or App Name -->
+    <TextView
+        android:id="@+id/app_name5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Dreamer"
+        android:textSize="32sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <!-- Phone Number Input -->
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_name5"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_edit_text"
+        android:hint="Enter Your Name"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray" />
+
+    <!-- Send OTP Button -->
+    <Button
+        android:id="@+id/name_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_edit_text"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_button"
+        android:padding="16dp"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>
