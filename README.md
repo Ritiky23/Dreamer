@@ -1,10 +1,5 @@
-# Dreamer
-
-Hi Team,
-
-I hope this message finds you well.
-
-I am pleased to inform you that I have successfully completed the Week 1 task for Chamberly AB. I have developed a Kotlin application named "Dreamer" using Firebase as the backend. Below are the key features and functionalities of the app:
+# Dreamer : Interpret, Understand, Dream On
+Dreamer is an innovative app designed to help you unlock the hidden meanings behind your dreams. By leveraging the power of Google's Gemini API, Dreamer provides personalized interpretations of your dreams based on the specific details you provide. Simply input the dream you had along with the emotions you felt during the dream, and Dreamer will analyze this information to offer insights and explanations. With Dreamer, you can discover the meaning of your dreams, understand the symbolism and significance behind them, and gain clarity on how your feelings during dreams relate to your waking life. Receive tailored interpretations that make sense of your unique dream experiences and keep a log of your dreams and emotions to identify recurring themes and patterns. Whether you're curious about the mysteries of your subconscious or seeking deeper self-awareness, Dreamer is your go-to tool for dream analysis. Dive into the world of your dreams and uncover the insights that lie within.
 
 ## Key Features
 
@@ -25,6 +20,12 @@ I am pleased to inform you that I have successfully completed the Week 1 task fo
 
 6. **Local Data Storage**
    - The app uses Room Database to store user data locally, enhancing the overall user experience by enabling offline access and faster data retrieval.
+
+## Screenshots
+
+![Dreamer Screenshot 1](screenshot/p1.png)
+![Dreamer Screenshot 2](path/to/screenshot2.png)
+![Dreamer Screenshot 3](path/to/screenshot3.png)
 
 ## Getting Started
 
@@ -62,6 +63,3 @@ I am pleased to inform you that I have successfully completed the Week 1 task fo
 
 4. **View History:**
    - Users can view their past dream inputs and interpretations in a RecyclerView list.
-
-
-
