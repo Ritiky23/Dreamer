@@ -1,4 +1,7 @@
 # Dreamer : Interpret, Understand, Dream On
+<p align="center">
+  <img src="/screenshot/logo2.png" alt="Screenshot" width="600" height="280"/>
+</p>
 Dreamer is an innovative app designed to help you unlock the hidden meanings behind your dreams. By leveraging the power of Google's Gemini API, Dreamer provides personalized interpretations of your dreams based on the specific details you provide. Simply input the dream you had along with the emotions you felt during the dream, and Dreamer will analyze this information to offer insights and explanations. With Dreamer, you can discover the meaning of your dreams, understand the symbolism and significance behind them, and gain clarity on how your feelings during dreams relate to your waking life. Receive tailored interpretations that make sense of your unique dream experiences and keep a log of your dreams and emotions to identify recurring themes and patterns. Whether you're curious about the mysteries of your subconscious or seeking deeper self-awareness, Dreamer is your go-to tool for dream analysis. Dive into the world of your dreams and uncover the insights that lie within.
 
 ## Key Features
@@ -23,9 +26,15 @@ Dreamer is an innovative app designed to help you unlock the hidden meanings beh
 
 ## Screenshots
 
-![Dreamer Screenshot 1](screenshot/p1.png)
-![Dreamer Screenshot 2](path/to/screenshot2.png)
-![Dreamer Screenshot 3](path/to/screenshot3.png)
+<p align="center">
+  <img src="screenshot/p1.png" alt="Screenshot 3"/>
+</p>
+<p align="center">
+  <img src="screenshot/p2.png" alt="Screenshot 3"/>
+</p>
+<p align="center">
+  <img src="screenshot/p3.png" alt="Screenshot 3"/>
+</p>
 
 ## Getting Started
 
@@ -39,7 +48,7 @@ Dreamer is an innovative app designed to help you unlock the hidden meanings beh
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/dreamer.git
+    git clone https://github.com/Ritiky23/dreamer.git
     ```
 2. Open the project in Android Studio.
 3. Set up Firebase:
